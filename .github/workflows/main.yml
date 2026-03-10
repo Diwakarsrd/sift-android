@@ -24,11 +24,15 @@ jobs:
 
       - run: echo "sdk.dir=$ANDROID_SDK_ROOT" > sift-app/local.properties
 
-      - uses: gradle/actions/setup-gradle@v3
+      - name: Install Gradle 8.9
+        run: |
+          wget -q https://services.gradle.org/distributions/gradle-8.9-bin.zip
+          unzip -q gradle-8.9-bin.zip -d /opt/gradle
+          echo "/opt/gradle/gradle-8.9/bin" >> $GITHUB_PATH
 
       - name: Build APK
         working-directory: sift-app
-        run: gradle assembleDebug --no-daemon
+        run: gradle assembleDebug --no-daemon --stacktrace
 
       - uses: actions/upload-artifact@v4
         with:
