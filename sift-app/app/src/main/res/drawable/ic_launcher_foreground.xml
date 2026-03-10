@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Three tapering bars — Sift logo mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,44 L88,44 Q92,44 92,48 L92,52 Q92,56 88,56 L20,56 Q16,56 16,52 L16,48 Q16,44 20,44 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,60 L78,60 Q82,60 82,64 L82,68 Q82,72 78,72 L30,72 Q26,72 26,68 L26,64 Q26,60 30,60 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,76 L68,76 Q72,76 72,80 L72,84 Q72,88 68,88 L40,88 Q36,88 36,84 L36,80 Q36,76 40,76 Z"/>
+</vector>

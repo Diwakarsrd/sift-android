@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIFT</string>
+    <string name="accessibility_service_label">SIFT Memory Service</string>
+    <string name="accessibility_service_description">
+        SIFT uses this permission to capture your app usage history for on-device memory search.
+        All data is encrypted and stored only on your device. Nothing is sent to the cloud.
+    </string>
+    <string name="accessibility_service_summary">
+        Enables SIFT to remember your phone activity for private, on-device search.
+    </string>
+</resources>

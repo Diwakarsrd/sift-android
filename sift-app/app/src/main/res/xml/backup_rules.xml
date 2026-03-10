@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- backup_rules.xml — exclude the encrypted DB from cloud backup (security) -->
+<full-backup-content>
+    <exclude domain="database" path="sift_memory.db" />
+    <exclude domain="file"     path="sift_index.bin" />
+</full-backup-content>

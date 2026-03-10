@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="sift_memory.db" />
+        <exclude domain="file"     path="sift_index.bin" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="sift_memory.db" />
+        <exclude domain="file"     path="sift_index.bin" />
+    </device-transfer>
+</data-extraction-rules>

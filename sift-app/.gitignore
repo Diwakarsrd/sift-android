@@ -1,0 +1,23 @@
+# Built artifacts
+build/
+.gradle/
+*.apk
+*.aab
+*.aar
+
+# Local config — never commit
+local.properties
+keystore/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.jar
+
+# Gradle wrapper jar is committed intentionally
+!gradle/wrapper/gradle-wrapper.jar
